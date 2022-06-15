@@ -8,13 +8,15 @@ tags: [js,前端]
 **[github笔记下载地址](https://github.com/codeOflI/codeOflI.github.io/blob/dev/source/_posts/js-note/javaScript/javaScript.md)**
 [TOC]
 
+#JavaScript最好的查询网站_MDN网址：https://developer.mozilla.org/zh-CN/docs/Web/API
+
 # JavaScript  
 
 JavaScript负责页面中的的行为。  
 
 它是一门运行在浏览器端的脚本语言。  
 
-## JS的编写的位置  
+## JS的编写的位置 _</body>之前
 
 1.可以编写到标签的指定属性中  
 ```html  
@@ -100,6 +102,17 @@ JS中会自动忽略多个空格和换行，所以我们可以利用空格和换
 一般都是通过变量来使用字面量，而不直接使用字面量，而且也可以通过变量来对字面量进行一个描述  
 
 声明变量  
+
+var,let,const三种方法申明变量
+var全局变量,let和const是在ES6,ES2015中添加的
+let可以重新赋值
+const是常量，不能再赋值
+
+```javascript
+let age = 30;
+console.log(age);
+<!-- 控制台显示30 -->
+```
 
 使用var关键字来声明一个变量  
 ```javascript
