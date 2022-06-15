@@ -219,6 +219,7 @@ console.log(typeof name)
 ## 类型转换  
 
  类型转换就是指将其他的数据类型，转换为String Number 或 Boolean  
+ 
 
 ### 转换为String  
 
@@ -325,6 +326,13 @@ null、undefined > 布尔
 ```javascript  
 var a = "hello";  
 a = !!a; //true  
+```
+# 字符串拼接两种输出方法
+```javascript  
+<!-- concatenation -->
+console.log("My name is"+name + "and I am" + age);
+<!-- Template String -->
+const hello = ""My name is ${name} and I am ${age}"
 ```
 
 # 基础语法  
