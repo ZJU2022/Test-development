@@ -8,7 +8,7 @@ tags: [js,前端]
 **[github笔记下载地址](https://github.com/codeOflI/codeOflI.github.io/blob/dev/source/_posts/js-note/javaScript/javaScript.md)**
 [TOC]
 
-#JavaScript最好的查询网站_MDN网址：https://developer.mozilla.org/zh-CN/docs/Web/API
+# JavaScript最好的查询网站_MDN网址：https://developer.mozilla.org/zh-CN/docs/Web/API
 
 # JavaScript  
 
@@ -167,6 +167,15 @@ JS中的字符串需要使用引号引起来双引号或单引号都行
 \n  ==> 换行  
 \t  ==> 制表符  
 \\  ==> \	  
+```
+
+```javascript
+var age = 30
+var name = 'John'
+<!--出现Number  -->
+console.log(typeof age)   
+<!--出现String  -->
+console.log(typeof name)  
 ```
 
  使用typeof运算符检查字符串时，会返回"string"	  
