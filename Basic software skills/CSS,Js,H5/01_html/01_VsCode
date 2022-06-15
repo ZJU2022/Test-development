@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+  <!-- 
+      1 安装VSCode
+      2 安装中文语言包
+      3 尝试安装ayu主题
+      4 将一个目录作为项目目录大
+      5 创建一个新网页
+      6 安装live server
+      7 尝试通过live server来运行网页
+      8 设置代码自动存储
+      9 https://blog.csdn.net/m0_46266264/article/details/125236531
+      10 注释快捷键 Ctrl+/
+      11 以live为前缀搜索，意思是现场直播，即改代码的时候浏览器会自动同步刷新，且打开的网页不再是文件路径而是ip地址
+      12 vscode设置功能——自动保存
+      13 vscode详细使用：debugg，插件，文件管理，快捷键清请阅读vscode_use
+   -->
+
+   
+</body>
+</html>
