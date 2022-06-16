@@ -1,12 +1,4 @@
----
-title: javaScript
-p: js-note/javaScript/javaScript
-date: 2019-11-12 10:18:21  
-categories: js
-tags: [js,前端]
----
-**[github笔记下载地址](https://github.com/codeOflI/codeOflI.github.io/blob/dev/source/_posts/js-note/javaScript/javaScript.md)**
-[TOC]
+# JavaScript箭头函数 https://blog.csdn.net/m0_46266264/article/details/125313758?csdn_share_tail=%7B%22type%22%3A%22blog%22%2C%22rType%22%3A%22article%22%2C%22rId%22%3A%22125313758%22%2C%22source%22%3A%22m0_46266264%22%7D&ctrtid=uA71a
 
 # JavaScript最好的查询网站_MDN网址：https://developer.mozilla.org/zh-CN/docs/Web/API
 
