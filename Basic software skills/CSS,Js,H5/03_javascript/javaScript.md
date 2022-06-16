@@ -904,7 +904,10 @@ function Person(name , age , gender){
     this.sayName = function(){  
         alert(this.name);  
     };  
-}  
+}   
+
+const person1 = new Person('John',18, 'man');
+const person2 = new Person('Lily', 22, 'woman');
 ```
 
   
@@ -988,6 +991,7 @@ Person.prototype.toString = function(){
  数组中保存的内容我们称为元素	  
  数组使用索引（index）来操作元素  
  索引指由0开始的整数  
+ JS中一个数组可以保存不同类型的值
 
 ## 数组的操作：  
 
@@ -1237,6 +1241,10 @@ toLowerCase()
  将字符串转换为小写并返回  
 toUpperCase()   
  将字符串转换为大写并返回  
+ 
+ ```javascript
+console.log(s.substring(0,5).toLowerCase())
+```
 
 ### 正则表达相关方法  
 
@@ -2359,7 +2367,7 @@ function toggleClass(obj , cn){
 }  
 ```
 
-# JSON  
+# JSON  有免费转换json格式的网页
 
  **JavaScript Object Notation** JS对象表示法
 
@@ -2509,4 +2517,4 @@ copy() {
 }  
 ```
 
-  **[github笔记下载地址](https://github.com/codeOflI/codeOflI.github.io/blob/dev/source/_posts/js-note/javaScript/javaScript.md)**
+ 
