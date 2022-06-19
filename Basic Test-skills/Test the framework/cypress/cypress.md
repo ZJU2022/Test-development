@@ -1,1 +1,1 @@
-![text](https://github.com/ZJU2022/picture/blob/main/1.PNG)
+![image](https://hub.fastgit.xyz/ZJU2022/source/blob/main/1.jpg)
