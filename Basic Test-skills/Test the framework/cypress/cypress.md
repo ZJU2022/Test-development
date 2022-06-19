@@ -11,28 +11,15 @@ cypress的优势在于可以同时进行UI自动化和接口自动化，比如�
 
 它是一门运行在浏览器端的脚本语言。  
 
-## JS的编写的位置 _</body>之前
+all of cypress code are javascript
 
-1.可以编写到标签的指定属性中  
-```html  
-<button onclick="alert('hello');">我是按钮</button>  
-<a href="javascript:alert('aaa');">超链接</a>  
-```
+## 原理 _</body>之前
 
-2.可以编写到script标签中  
+selenium原理：测试代码（Python/java/C#）———（http协议，json格式进行交互）———webdriver—---（操作浏览器）--—浏览器
+cypress原理：直接将cypress测试代码嵌入到网页里面去，效率和稳定更强。基于Node.js这样一个运行环境
 
-```html  
-<script type="text/javascript">  
-//编写js代码  
-</script>  
-```
-3.可以将代码编写到外部的js文件中，然后通过标签将其引入  
+Node.js：类似于虚拟机，一种运行的环境。javascript早起只能运行在浏览器，现在的javascript在Node.js下单独运行
 
-script标签一旦用于引入外部文件了，就不能在编写代码了，即使编写了浏览器也会忽略  ,如果需要则可以在创建一个新的script标签用于编写内部代码  
-
-```html  
-<script type="text/javascript" src="文件路径"></script>  
-```
 ## 输出语句  
 
 ```javascript  
