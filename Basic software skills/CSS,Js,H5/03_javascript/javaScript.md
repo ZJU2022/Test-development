@@ -1354,7 +1354,7 @@ test()
 var s = "        	f    afa    ";   
 s = s.replace(/^\s*|\s*$/g,"");  
 ```
-
+# WebAPI__使用js操作html和浏览器
 # DOM  
 Document Object Model  
 文档对象模型，通过DOM可以来任意来修改网页中各个内容  
